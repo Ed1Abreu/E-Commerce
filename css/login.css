@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*INICIO CABEÇALHO*/
+
+#cabecalho{
+    background-image: linear-gradient(to right, #1488CC , #2B32B2);
+    padding: 10px; 
+    margin-bottom: 10px;
+}
+#titulo_loja{
+    font-family: 'Lobster', cursive;
+    color: #fefefe;
+    text-align: center;
+}
+#link-titulo{
+    text-decoration: none;
+}
+#div_links{  
+    display: flex;
+    font-size: 15px;
+}
+#iconeUsuario{
+    width: 40px;
+    height:40px;
+}
+#links{
+    margin-left: 15px;
+    color: #ffffff;
+}
+#links a{
+    text-decoration: none;
+    color: #ffffff;
+    text-decoration: underline;
+}
+#sessao-usuario{
+    text-align: center;
+}
+#sessao-frete{
+    margin-left: 80%; 
+    text-align: center;
+    display: inline-block;
+}
+#imagem-ponto{
+    width: 25px;
+    height: 25px;
+}
+#calcular{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    cursor: pointer;
+}
+#cep-destino{
+    border-radius: 5px;
+    border: none;
+    padding: 3px;
+    margin: 2px;
+}
+#botao_calcular{
+    align-items: center;
+    width: 50%;
+    margin-top: 2px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    padding: 2px;
+}
+#sessao-transportadoras{
+    display: flex;
+    color: #ffffff;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 80%;
+    padding: 3px;
+}
+.opcoes{
+    margin-left: 20px;
+    text-align: center;
+}
+
+/*FIM CABEÇALHO*/
+
+/*INICIO PRINCIPAL*/
+
+#titulo{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+section{
+    text-align: center;
+    position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    
+}
+#container{
+    display: inline-block;
+    border: 1px black solid;
+    width: 20%;
+    padding: 5%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+}
+label{
+    display: flex;
+}
+.sessoes{
+    padding: 7px;
+}
+.inputs{
+    padding: 5px;
+    width: 100%;
+}
+#lembra_senha{
+    text-align: right;
+}
+#botao{
+    cursor: pointer;
+    width: 90%;
+    padding: 3%;
+    margin-top: 2%;
+    
+}
+
+/*FIM PRINCIPAL*/
+
+/*INICIO RODAPE*/
+
+#rodape{
+    background-color: #252525;
+    color: #ffffff;
+    padding: 3%;
+}
+#texto_rodape{
+    font-size: 14px;
+    text-align: center;
+}
+
+/*FIM RODAPE*/

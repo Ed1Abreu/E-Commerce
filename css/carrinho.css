@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+/*INICIO CABEÇALHO*/
+
+#cabecalho{
+    background-image: linear-gradient(to right, #1488CC , #2B32B2);
+    padding: 10px; 
+    margin-bottom: 10px;
+}
+#titulo_loja{
+    font-family: 'Lobster', cursive;
+    color: #fefefe;
+    text-align: center;
+}
+#link-titulo{
+    text-decoration: none;
+}
+#div_links{  
+    display: flex;
+    font-size: 15px;
+}
+#iconeUsuario{
+    width: 40px;
+    height:40px;
+}
+#links{
+    margin-left: 15px;
+    color: #ffffff;
+}
+#links a{
+    text-decoration: none;
+    color: #ffffff;
+    text-decoration: underline;
+}
+#sessao-usuario{
+    text-align: center;
+}
+#sessao-frete{
+    margin-left: 80%; 
+    text-align: center;
+    display: inline-block;
+}
+#imagem-ponto{
+    width: 25px;
+    height: 25px;
+}
+#calcular{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    cursor: pointer;
+}
+#cep-destino{
+    border-radius: 5px;
+    border: none;
+    padding: 3px;
+    margin: 2px;
+    text-align: center;
+}
+#botao_calcular{
+    align-items: center;
+    width: 50%;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    padding: 2px;
+    color: #000000;
+    background-color: #ffffff;
+}
+#botao_calcular:hover{
+    width: 55%;
+}
+#imagem_carrinho{
+    width: 30px;
+    margin-left: 40px;
+    cursor:pointer;
+}
+#sessao-transportadoras{
+    display: flex;
+    color: #ffffff;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 80%;
+    padding: 3px;
+}
+.opcoes{
+    margin-left: 20px;
+    text-align: center;
+}
+
+/*FIM CABEÇALHO*/
+
+/*INICIO SECTION*/
+
+#sessao-carrinho{
+    text-align: center;
+}
+
+#titulo-carrinho{
+
+}
+
+
+
+
+
+/*FIM SECTION*/
